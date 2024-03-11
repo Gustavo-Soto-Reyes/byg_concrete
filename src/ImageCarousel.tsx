@@ -1,0 +1,38 @@
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import "./ImageCarousel.css"
+
+const imageNames = [
+    'IMG_6904.jpg',
+    'IMG_6908.jpg',
+    'IMG_6887.jpg',
+    'IMG_6888.jpg',
+    'IMG_6890.jpg',
+    'IMG_6891.jpg',
+    'IMG_6892.jpg',
+    'IMG_6893.jpg',
+    'IMG_6894.jpg',
+    'IMG_6895.jpg',
+    'IMG_6896.jpg',
+    'IMG_6897.jpg',
+    'IMG_6898.jpg',
+    'IMG_6904 2.jpg',
+    'IMG_6904 3.jpg'
+  ];
+
+const CarouselComponent = () => {
+  return (
+    <div className="carousel-container">
+    <Carousel dynamicHeight={false} autoPlay infiniteLoop showThumbs={false} showArrows={true} >
+       {imageNames.map((imageName, index) => (
+        <div key={index}>
+          <img src={`${imageName}`} alt={`Image ${index + 1}`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        </div>
+      ))}
+    </Carousel>
+    </div>
+  );
+};
+
+export default CarouselComponent;
