@@ -4,21 +4,19 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./ImageCarousel.css"
 
 const imageNames = [
-    'IMG_6904.jpg',
-    'IMG_6908.jpg',
-    'IMG_6887.jpg',
-    'IMG_6888.jpg',
-    'IMG_6890.jpg',
-    'IMG_6891.jpg',
-    'IMG_6892.jpg',
-    'IMG_6893.jpg',
-    'IMG_6894.jpg',
-    'IMG_6895.jpg',
-    'IMG_6896.jpg',
-    'IMG_6897.jpg',
-    'IMG_6898.jpg',
-    'IMG_6904 2.jpg',
-    'IMG_6904 3.jpg'
+    'IMG_6904.JPG',
+    'IMG_6908.JPG',
+    'IMG_6887.JPG',
+    'IMG_6888.JPG',
+    'IMG_6890.JPG',
+    'IMG_6891.JPG',
+    'IMG_6892.JPG',
+    'IMG_6893.JPG',
+    'IMG_6894.JPG',
+    'IMG_6895.JPG',
+    'IMG_6896.JPG',
+    'IMG_6897.JPG',
+    'IMG_6898.JPG',
   ];
 
 const CarouselComponent = () => {
