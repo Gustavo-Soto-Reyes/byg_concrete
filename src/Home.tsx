@@ -11,13 +11,17 @@ const Home: React.FC = () => {
   return (
     <div className="home-page">
     <header>
+      <div className='navbar'>
     <img src="BG_Concrete22.png" alt="Logo" className="logo" />
       <h1>Bill and Gus Concrete</h1>
+      </div>
     </header>
     <section className="business-info">
-    <h2 className='intro'>
-      Hello we're Bill and Gus Concrete, your trusted family-owned concrete business serving Union County and the greater Charlotte Mecklenburg area. We specialize in crafting beautiful driveways and outdoor spaces with a blend of professionalism and warmth. From modern designs to timeless classics, we're committed to delivering exceptional service and turning your vision into reality.
-      </h2>
+      <div className='intro'>
+      <h2 >
+        Hello we're Bill and Gus Concrete, your trusted family-owned concrete business serving Union County and the greater Charlotte Mecklenburg area. We specialize in crafting beautiful driveways and outdoor spaces with a blend of professionalism and warmth. From modern designs to timeless classics, we're committed to delivering exceptional service and turning your vision into reality.
+        </h2>
+      </div>
     </section>
     <section className="services">
       <h2>Our Services</h2>
