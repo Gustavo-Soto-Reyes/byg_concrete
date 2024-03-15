@@ -14,7 +14,19 @@ const Home: React.FC = () => {
       <div className='navbar'>
     <img src="BG_Concrete22.png" alt="Logo" className="logo" />
       <h1>Bill and Gus Concrete</h1>
+      <div className='social-icons'> 
+      <a href='https://www.tiktok.com/@b_gconcrete?_t=8kegsN2mVA3&_r=1'>
+      <div className='tiktok'>
+      <i className="material-icons" >tiktok</i>      
       </div>
+      </a>
+      <a href='https://m.facebook.com/profile.php?id=100063658144976&mibextid=LQQJ4d'>
+      <div className='facebook'>
+  <i className="material-icons">facebook</i>
+  </div>
+  </a>
+      </div>
+      </div>     
     </header>
     <section className="business-info">
       <div className='intro'>
