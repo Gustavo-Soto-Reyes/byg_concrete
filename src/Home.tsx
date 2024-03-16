@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css"
 import CarouselComponent from './ImageCarousel';
+import LocationMap from './LocationMap';
 
 const Home: React.FC = () => {
    const colors = ['#FF914D', '#868686', '#FFBF00', '#ffc107', '#9CF6F6'];
@@ -64,9 +65,24 @@ const Home: React.FC = () => {
         {/* <div className="contact-item">
           <i className="material-icons">phone</i>
           <p>+1234567890</p>
-        </div> */}
+        </div> */}        
       </div>
     </section>
+    <div className='map-container'>
+    <div>
+      <h3>
+      We provide services in your area!
+      </h3>
+    </div>
+      <div className='map'>
+    <LocationMap/>
+    </div>    
+    <div className='locations'>
+      <p>
+      Charlotte, NC ◦ Monroe, NC  ◦ Wingate, NC ◦ Matthews, NC ◦ Gastonia, NC ◦ Indian Trail, NC ◦ Marshville, NC ◦ Lancaster, SC and surrounding areas
+      </p>
+    </div>
+    </div>
     <section className="image-carousel">
       <h2>Gallery</h2>
       <CarouselComponent />
