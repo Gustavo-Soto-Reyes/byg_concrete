@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content:space-around;
-  max-height: 130px;
+  max-height: 160px;
   position: relative;
 }
 
@@ -249,6 +249,10 @@ justify-content: space-evenly;
 
   .navbar{
     flex-direction: column;
+    height: 70%;
+    max-height:none;
+    justify-content: space-around;
+    align-self: center;
   }
 
   header::before {

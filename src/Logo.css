@@ -1,0 +1,15 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .logo_png {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css"
 import CarouselComponent from './ImageCarousel';
 import LocationMap from './LocationMap';
+import Logo from './Logo';
 
 const Home: React.FC = () => {
    const colors = ['#FF914D', '#868686', '#FFBF00', '#ffc107', '#9CF6F6'];
@@ -13,7 +14,10 @@ const Home: React.FC = () => {
     <div className="home-page">
     <header>
       <div className='navbar'>
-    <img src="BG_Concrete22.png" alt="Logo" className="logo" />
+    <div className='Logo' style={{zIndex:1}}>
+      <Logo size={100} /> {/* You can change the size prop to resize the logo */}
+      </div>
+    {/* </div> */}
       <h1>Bill and Gus Concrete</h1>
       <div className='social-icons'> 
       <a href='https://www.tiktok.com/@b_gconcrete?_t=8kegsN2mVA3&_r=1'>
